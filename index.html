@@ -7,51 +7,68 @@
 <style>
     body {
         font-family: Arial, sans-serif;
-        background-color: #f0f8ff;
         margin: 0;
         padding: 0;
+        background: linear-gradient(to bottom, #d0e8ff, #ffffff);
+    }
+    .header {
+        height: 280px;
+        background: url('https://images.unsplash.com/photo-1502920917128-1aa500764ce7?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+        font-size: 48px;
+        font-weight: bold;
     }
     .container {
-        max-width: 700px;
-        margin: 50px auto;
+        max-width: 900px;
+        margin: -50px auto 50px auto;
         background: white;
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         text-align: center;
     }
     h1 {
         color: #003e7f;
-        font-size: 32px;
+        font-size: 36px;
         margin-bottom: 20px;
     }
     p, li {
-        font-size: 18px;
+        font-size: 19px;
         color: #333;
-        line-height: 1.6;
+        line-height: 1.7;
     }
     ul {
         text-align: left;
         display: inline-block;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
     .contact {
-        font-size: 18px;
-        margin-top: 20px;
+        font-size: 19px;
         background: #e0f2ff;
-        padding: 15px;
-        border-left: 5px solid #0072ff;
-        border-radius: 8px;
+        padding: 20px;
+        border-left: 6px solid #0072ff;
+        border-radius: 12px;
+        margin-top: 25px;
+        display: inline-block;
+        text-align: left;
+    }
+    .contact strong {
+        color: #0072ff;
     }
     .button {
         display: inline-block;
-        margin-top: 20px;
-        padding: 12px 25px;
+        margin-top: 30px;
+        padding: 15px 30px;
         background: #0072ff;
         color: white;
         text-decoration: none;
-        border-radius: 8px;
-        font-size: 18px;
+        font-size: 19px;
+        border-radius: 12px;
+        transition: 0.3s;
     }
     .button:hover {
         background: #0053b8;
@@ -60,9 +77,10 @@
 </head>
 <body>
 
+<div class="header">FlyMok.com</div>
+
 <div class="container">
-    <h1>FlyMok.com</h1>
-    <p><strong>Premium Brandable Domain For Sale</strong></p>
+    <h1>Premium Brandable Domain For Sale</h1>
     <p>This domain is perfect for:</p>
     <ul>
         <li>✈️ Travel agencies</li>
@@ -82,4 +100,4 @@
 </div>
 
 </body>
-  </html>
+</html>
